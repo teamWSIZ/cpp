@@ -28,4 +28,7 @@ x = 1
 Listownie "pewnych" plików
 `ll -d abra*zip`   ---> wszystkie pliki zaczynające na abra i kończące na zip
 
+Szukanie w pliku (abra.txt):
+cat abra.txt | grep "user st" 
+(cokolwiek po grep)
                    
