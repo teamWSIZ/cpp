@@ -31,5 +31,6 @@ Listownie "pewnych" plików:
 
 Szukanie w pliku (abra.txt):
 `cat abra.txt | grep "user st" `
+
 (po `grep` w cudzysłowiu jest szukana fraza; można dać dalsze szukanie, ` | grep aa | grep bb` (na koniec będą linie z `aa` i `bb`; można dać `grep -v aa` --> linie _bez_ `aa`)
                    
