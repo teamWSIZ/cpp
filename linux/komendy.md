@@ -25,10 +25,11 @@ r = 4
 w = 2
 x = 1
 
-Listownie "pewnych" plików
+Listownie "pewnych" plików:
+
 `ll -d abra*zip`   ---> wszystkie pliki zaczynające na abra i kończące na zip
 
 Szukanie w pliku (abra.txt):
-cat abra.txt | grep "user st" 
-(cokolwiek po grep)
+`cat abra.txt | grep "user st" `
+(po `grep` w cudzysłowiu jest szukana fraza; można dać dalsze szukanie, ` | grep aa | grep bb` (na koniec będą linie z `aa` i `bb`; można dać `grep -v aa` --> linie _bez_ `aa`)
                    
