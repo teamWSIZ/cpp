@@ -17,13 +17,18 @@ typowy wynik komendy `ll`
 
 Zmiana praw:
 ```
-chown o+x [nazwa_pliku]   --> dodanie flagi execute dla "others" czyli wszystkich
-chown u+w [nazwa_pliku]   --> tak by właściciel user mógł zapisywać
+chmod o+x [nazwa_pliku]   --> dodanie flagi execute dla "others" czyli wszystkich
+chmod u+w [nazwa_pliku]   --> tak by właściciel user mógł zapisywać
 ```
-
 r = 4
 w = 2
 x = 1
+
+Zmiana właścicieli pliku:
+
+`chown nowyuser:nowagrupa plik`
+
+W komendach można dodawać `-R` (recursive), by wykonywało je dla wszystkich plików w głąb. 
 
 Listownie "pewnych" plików:
 
